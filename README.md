@@ -2,9 +2,8 @@
 
 A wrist-worn study tracker that uses accelerometer data to identify study-related movement and phone-pickup motions, provide feedback, and encourage focus through friendly competition on a shared leaderboard.
 
-Developed with **Mingyang Chen** for **UC San Diego ECE 16**, this project combines an **ESP32 wearable, Python motion processing, MQTT messaging, and a FastAPI web dashboard**. The course prototype was also called **LockIn**.
 
-My work focused on the **backend, MQTT communication, dashboard and leaderboard, CAD enclosure, and collaborative system integration**.
+My work focused on ESP32 firmware, accelerometer data logging, motion analysis, detection-threshold tuning, and collaborative system integration.
 
 
 ![StudyBand wearable prototype](media/studyband_product.JPG)
@@ -141,7 +140,7 @@ Participants are ranked by **highest score**, with **fewer phone pickups** used 
 | Push button | Provides a physical input for the prototype |
 | Custom CAD enclosure | Packages the electronics for wrist-mounted use |
 
-I designed the enclosure to bring the sensing, display, and control components together in a wearable form.
+Mingyang designed the enclosure to bring the sensing, display, and control components together in a wearable form.
 
 
 ## Testing and Limitations
