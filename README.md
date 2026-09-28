@@ -119,16 +119,16 @@ For example, a window with `l1_peak = 4900`, `P = 0.15`, and `R = 0.12` is class
 Thresholds were tuned using labeled recordings of phone pickup, typing, writing, stillness, and random arm movement. Writing and typing are grouped under **active study** during operation. Since classification relies on wrist-motion patterns, unrelated movements may produce similar results.
 
 ![Phone_Pickup_Motion_Plot](docs/phone_pickup_motion_plot.JPG)
-**Phone_Pickup Motion Plot**
+**Early Experiemental Phone_Pickup Motion Plot**
 
 ![Still_Motion_Plot](docs/still_motion_plot.JPG)
-**Still Motion Plot**
+**Early Experiemental Still Motion Plot**
 
 ![Typing_Motion_Plot](docs/typing_motion_plot.JPG)
-**Tying Motion Plot**
+**Early Experiemental Tying Motion Plot**
 
 ![Writing_Motion_Plot](docs/writing_motion_plot.JPG)
-**Writing Motion Plot**
+**Early Experiemental Writing Motion Plot**
 
 ## Dashboard and Friendly Competition
 
