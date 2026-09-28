@@ -118,6 +118,17 @@ For example, a window with `l1_peak = 4900`, `P = 0.15`, and `R = 0.12` is class
 
 Thresholds were tuned using labeled recordings of phone pickup, typing, writing, stillness, and random arm movement. Writing and typing are grouped under **active study** during operation. Since classification relies on wrist-motion patterns, unrelated movements may produce similar results.
 
+![Phone_Pickup_Motion_Plot](docs/phone_pickup_motion_plot.JPG)
+**Phone_Pickup Motion Plot**
+
+![Still_Motion_Plot](docs/still_motion_plot.JPG)
+**Still Motion Plot**
+
+![Typing_Motion_Plot](docs/typing_motion_plot.JPG)
+**Tying Motion Plot**
+
+![Writing_Motion_Plot](docs/writing_motion_plot.JPG)
+**Writing Motion Plot**
 
 ## Dashboard and Friendly Competition
 
@@ -142,6 +153,8 @@ Participants are ranked by **highest score**, with **fewer phone pickups** used 
 
 Mingyang designed the enclosure to bring the sensing, display, and control components together in a wearable form.
 
+![CAD Drawing](hardware/cad.JPG)
+
 
 ## Testing and Limitations
 
@@ -151,6 +164,11 @@ Development included collecting labeled motion data, analyzing movement features
 - A detected phone-pickup motion is an estimate; the device does not directly measure attention or ongoing phone usage.
 - The prototype requires a **connected computer** for classification, scoring, and MQTT publishing.
 - The current dashboard maintains results in memory rather than a persistent session-history database.
+
+## Setup and Testing
+
+- [Setup and troubleshooting](docs/setup.md)
+- [Dataset, testing, and limitations](docs/testing.md)
 
 ## Technologies
 
