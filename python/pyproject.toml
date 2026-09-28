@@ -1,0 +1,11 @@
+[project]
+name = "focus-tracker-server"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-dotenv",
+    "websockets",
+    "paho-mqtt"
+]

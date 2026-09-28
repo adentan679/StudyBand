@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LockIn Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>LockIn Dashboard</h1>
+        <p>Live multi-device leaderboard for study sessions</p>
+        <p>Server namespace: {{ student_id }}</p>
+    </header>
+
+    <main>
+        <section id="stats-section">
+            <h2>Live Status</h2>
+            <div id="stats-container">
+                <div class="stat-card">
+                    <h3>Devices Online</h3>
+                    <p id="device-count">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Score</h3>
+                    <p id="total-score">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Pickups</h3>
+                    <p id="total-pickups">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>WebSocket</h3>
+                    <p id="ws-status">Disconnected</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="leaderboard-section">
+            <h2>Leaderboard</h2>
+            <table id="leaderboard">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Student ID</th>
+                        <th>Device</th>
+                        <th>Mode</th>
+                        <th>Score</th>
+                        <th>Pickups</th>
+                        <th>Elapsed</th>
+                        <th>Last Event</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body"></tbody>
+            </table>
+        </section>
+
+        <section id="events-section">
+            <h2>Recent Events</h2>
+            <ul id="event-list"></ul>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', path='script.js') }}"></script>
+</body>
+</html>
