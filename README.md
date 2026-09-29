@@ -181,4 +181,4 @@ Development included collecting labeled motion data, analyzing movement features
 
 **Mingyang Chen:** FastAPI backend, MQTT communication, web dashboard and leaderboard, and CAD enclosure design.
 
-Both team members collaborated on system integration and testing. The project builds on UC San Diego ECE 16 coursework and supporting course libraries.
+
