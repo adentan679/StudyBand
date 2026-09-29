@@ -125,7 +125,7 @@ Thresholds were tuned using labeled recordings of phone pickup, typing, writing,
 **Early Experiemental Still Motion Plot**
 
 ![Typing_Motion_Plot](docs/typing_motion_plot.JPG)
-**Early Experiemental Tying Motion Plot**
+**Early Experiemental Typing Motion Plot**
 
 ![Writing_Motion_Plot](docs/writing_motion_plot.JPG)
 **Early Experiemental Writing Motion Plot**
